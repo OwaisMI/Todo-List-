@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<h3>Update task</h3>
+<form method="post" action="">
+  {% csrf_token %}
+  {{form}}
+  <input class="btn btn-sm btn-info" type="submit" name="Update task">
+</form>
